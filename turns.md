@@ -1,6 +1,6 @@
 # What constitutes a turn?
 
--determine player turn
+-determine player turn (switchPlayer)
 
 -select a space
   -space available?
