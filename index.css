@@ -1,3 +1,17 @@
 html {
-  
+
+}
+
+div.square {
+  display: inline-block;
+  width: 150px;
+  height: 75px;
+  margin: 10px;
+  border: 3px solid #73AD21;
+}
+
+div.row {
+
+
+
 }
