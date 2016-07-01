@@ -2,6 +2,10 @@ html {
 
 }
 
+body {
+  background-color: rgb(82, 156, 233);
+}
+
 div#tic-tac-toe {
   text-align: center;
 }
@@ -13,11 +17,31 @@ div.row {
 div.square {
   text-align: center;
   display: inline-block;
-  width: 150px;
-  height: 75px;
-  margin: 10px;
-  border: 3px solid #73AD21;
+  font-size: 3rem;
+  width: 8rem;
+  height: 8rem;
+  margin: 0;
+  padding: 0;
+  border: 3px solid white;
+  background-color: #3e181b;
+  color: #db1d2d;
 }
+
+/*.note {
+  cursor: pointer;
+  font-size: 3rem;
+  width: 8rem;
+  height: 8rem;
+  margin: 0;
+  padding: 0;
+  border: 3px solid currentColor;
+}
+
+.note:focus { outline: none; }*/
+
+.square { background-color: #3e181b; color: #db1d2d; }
+.square:hover { background-color: #661920; }
+.square:active, .square.active { background-color: #db1d2d; }
 
 h1 {
   text-align: center;
@@ -28,6 +52,8 @@ h2 {
 }
 
 p {
-  position: fixed;
   text-align: center;
+  margin: 0 auto;
+  width: 8rem;
+  position: fixed;
 }
