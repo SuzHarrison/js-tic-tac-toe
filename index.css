@@ -2,7 +2,16 @@ html {
 
 }
 
+div#tic-tac-toe {
+  text-align: center;
+}
+
+div.row {
+  text-align: center;
+}
+
 div.square {
+  text-align: center;
   display: inline-block;
   width: 150px;
   height: 75px;
@@ -10,14 +19,11 @@ div.square {
   border: 3px solid #73AD21;
 }
 
-div.row {
-  text-align: center;
-}
-
 h1 {
   text-align: center;
 }
 
-div#tic-tac-toe {
+p {
+  position: fixed;
   text-align: center;
 }
