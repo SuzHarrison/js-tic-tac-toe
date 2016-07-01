@@ -137,18 +137,14 @@ TicTacToe.prototype.switchPlayer = function() {
   }
 }
 
-TicTacToe.prototype.playAgain = function() {
-  //offer to play again
-
-}
-
 //jQuery
 $(document).on('ready', function() {
   console.log('create and begin the game here!')
   var game = new TicTacToe()
-    if (game.done === true) {
-      location.reload();
-    }
+  $('.reset').click(function() {
+    console.log("in play again")
+    location.reload(true)
+  })
   $('.square').one('click', function() {
     if (game.done === false) {
       $(this).append( "<p>" + game.currentPlayer + "</p>" )
